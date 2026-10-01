@@ -1,0 +1,473 @@
+{
+  "domains": [
+    {
+      "id": "spatial_reasoning",
+      "name": "TƯ DUY KHÔNG GIAN",
+      "icon": "🧩",
+      "description": "Hình dung, chuyển đổi và thao tác các cấu trúc hình học trong không gian",
+      "skills": [
+        {
+          "id": "symmetry",
+          "name": "Đối xứng",
+          "icon": "🪞",
+          "types": [
+            "Hoàn thiện hình đối xứng",
+            "Chọn hình đối xứng",
+            "Kéo hình đối xứng",
+            "Trục đối xứng xiên"
+          ]
+        },
+        {
+          "id": "rotation",
+          "name": "Xoay hình",
+          "icon": "🔄",
+          "types": [
+            "Xoay 90°",
+            "Xoay 180°",
+            "Xoay tự do",
+            "Tìm góc xoay đúng"
+          ]
+        },
+        {
+          "id": "spatial_orientation",
+          "name": "Định hướng không gian",
+          "icon": "🧭",
+          "types": [
+            "Định hướng la bàn",
+            "Phương hướng di chuyển",
+            "Góc nhìn từ trên / bên"
+          ]
+        },
+        {
+          "id": "relative_position",
+          "name": "Vị trí tương đối",
+          "icon": "📐",
+          "types": [
+            "Trên / Dưới",
+            "Trái / Phải",
+            "Trong / Ngoài",
+            "Trước / Sau",
+            "Quan hệ nhiều vật thể"
+          ]
+        },
+        {
+          "id": "shape_matching",
+          "name": "Ghép hình",
+          "icon": "🧩",
+          "types": [
+            "Ghép 2 mảnh",
+            "Ghép nhiều mảnh",
+            "Khớp hình học",
+            "Tìm mảnh còn thiếu"
+          ]
+        },
+        {
+          "id": "shape_decomposition",
+          "name": "Tách hình",
+          "icon": "✂️",
+          "types": [
+            "Tách thành các phần",
+            "Đếm khối thành phần",
+            "Bóc tách lớp hình"
+          ]
+        },
+        {
+          "id": "figure_ground",
+          "name": "Hình và nền",
+          "icon": "🎭",
+          "types": [
+            "Phân biệt bóng và hình",
+            "Lớp trước và lớp sau",
+            "Hình chìm trong nền"
+          ]
+        },
+        {
+          "id": "spatial_relations",
+          "name": "Quan hệ không gian",
+          "icon": "🌐",
+          "types": [
+            "Khoảng cách tương đối",
+            "Đan xen chồng lấn",
+            "Liên kết mắt xích"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "observation_discrimination",
+      "name": "QUAN SÁT & PHÂN BIỆT",
+      "icon": "🔍",
+      "description": "Phát hiện chi tiết vi mô, so sánh tương đồng và dị biệt thị giác",
+      "skills": [
+        {
+          "id": "spot_difference",
+          "name": "Tìm điểm khác nhau",
+          "icon": "🔎",
+          "types": [
+            "Khác nhau về màu sắc",
+            "Khác nhau về hướng",
+            "Khác nhau về chi tiết thừa/thiếu"
+          ]
+        },
+        {
+          "id": "visual_comparison",
+          "name": "So sánh hình",
+          "icon": "👀",
+          "types": [
+            "So sánh kích thước",
+            "So sánh tỷ lệ",
+            "So sánh độ dày nét vẽ"
+          ]
+        },
+        {
+          "id": "detail_recognition",
+          "name": "Nhận diện chi tiết",
+          "icon": "🔬",
+          "types": [
+            "Chi tiết vi mô",
+            "Điểm giao cắt",
+            "Đặc trưng góc cạnh"
+          ]
+        },
+        {
+          "id": "find_identical",
+          "name": "Tìm hình giống nhau",
+          "icon": "👯",
+          "types": [
+            "Cặp đôi giống hệt",
+            "Hình tương đồng góc nhìn",
+            "Tìm bản sao"
+          ]
+        },
+        {
+          "id": "feature_classification",
+          "name": "Phân loại theo đặc điểm",
+          "icon": "🏷️",
+          "types": [
+            "Phân nhóm màu",
+            "Phân nhóm hình dạng",
+            "Phân nhóm công năng"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patterns_rules",
+      "name": "QUY LUẬT & MẪU",
+      "icon": "🧠",
+      "description": "Quy nạp logic, nhận diện nhịp điệu chuỗi và chu kỳ lặp lại",
+      "skills": [
+        {
+          "id": "pattern_completion",
+          "name": "Hoàn thành mẫu",
+          "icon": "🔢",
+          "types": [
+            "Điền ô trống trong ma trận",
+            "Mẫu lặp lại ABAB",
+            "Mẫu xoay vòng"
+          ]
+        },
+        {
+          "id": "rule_discovery",
+          "name": "Tìm quy luật",
+          "icon": "💡",
+          "types": [
+            "Quy luật tịnh tiến",
+            "Quy luật cộng dồn",
+            "Quy luật màu sắc xen kẽ"
+          ]
+        },
+        {
+          "id": "sequence_continuation",
+          "name": "Tiếp tục chuỗi",
+          "icon": "➡️",
+          "types": [
+            "Chuỗi hình học",
+            "Chuỗi kích thước tăng dần",
+            "Chuỗi góc xoay"
+          ]
+        },
+        {
+          "id": "missing_part",
+          "name": "Phát hiện phần còn thiếu",
+          "icon": "❓",
+          "types": [
+            "Mảnh khuyết trong chu kỳ",
+            "Điểm gián đoạn"
+          ]
+        },
+        {
+          "id": "rule_transformation",
+          "name": "Biến đổi theo quy luật",
+          "icon": "⚙️",
+          "types": [
+            "Biến đổi 2 bước",
+            "Ma trận 2x2",
+            "Ma trận 3x3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shape_transformation",
+      "name": "BIẾN ĐỔI HÌNH",
+      "icon": "🔄",
+      "description": "Thao tác biến hình, phản xạ, gấp giấy và biến đổi kích thước",
+      "skills": [
+        {
+          "id": "trans_rotation",
+          "name": "Xoay",
+          "icon": "🔁",
+          "types": [
+            "Xoay thuận chiều kim đồng hồ",
+            "Xoay ngược chiều kim đồng hồ"
+          ]
+        },
+        {
+          "id": "trans_flip",
+          "name": "Lật",
+          "icon": "↕️",
+          "types": [
+            "Lật ngang (trục đứng)",
+            "Lật dọc (trục ngang)"
+          ]
+        },
+        {
+          "id": "trans_symmetry",
+          "name": "Đối xứng",
+          "icon": "🪞",
+          "types": [
+            "Phản chiếu gương",
+            "Đối xứng qua tâm"
+          ]
+        },
+        {
+          "id": "paper_folding",
+          "name": "Gấp hình",
+          "icon": "📄",
+          "types": [
+            "Gấp đôi",
+            "Mở nếp gấp",
+            "Đục lỗ giấy gấp"
+          ]
+        },
+        {
+          "id": "trans_position",
+          "name": "Biến đổi vị trí",
+          "icon": "🔀",
+          "types": [
+            "Hoán vị",
+            "Đổi chỗ 2 phần",
+            "Dịch chuyển tịnh tiến"
+          ]
+        },
+        {
+          "id": "trans_size",
+          "name": "Biến đổi kích thước",
+          "icon": "🔍",
+          "types": [
+            "Phóng to / Thu nhỏ",
+            "Co giãn tỷ lệ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composition_construction",
+      "name": "GHÉP & CẤU TẠO",
+      "icon": "🧱",
+      "description": "Tư duy cấu trúc tổng thể và các khối hình bộ phận",
+      "skills": [
+        {
+          "id": "assemble_pieces",
+          "name": "Ghép các mảnh thành hình",
+          "icon": "🧩",
+          "types": [
+            "Ghép 2 nửa",
+            "Ghép 4 góc",
+            "Khối lập phương mở"
+          ]
+        },
+        {
+          "id": "find_missing_piece",
+          "name": "Tìm mảnh còn thiếu",
+          "icon": "🧩",
+          "types": [
+            "Mảnh khuyết trung tâm",
+            "Mảnh khuyết góc cạnh"
+          ]
+        },
+        {
+          "id": "decompose_shape",
+          "name": "Tách một hình thành các phần",
+          "icon": "✂️",
+          "types": [
+            "Phân rã đa giác",
+            "Cắt bánh pizza",
+            "Cắt khối"
+          ]
+        },
+        {
+          "id": "tangram",
+          "name": "Tangram",
+          "icon": "📐",
+          "types": [
+            "Tangram 7 miếng",
+            "Xếp động vật",
+            "Xếp đồ vật"
+          ]
+        },
+        {
+          "id": "large_to_small",
+          "name": "Hình lớn → hình nhỏ",
+          "icon": "🔽",
+          "types": [
+            "Thu nhỏ tỷ lệ",
+            "Nhìn xa lại gần"
+          ]
+        },
+        {
+          "id": "small_to_large",
+          "name": "Hình nhỏ → hình lớn",
+          "icon": "🔼",
+          "types": [
+            "Phóng đại chi tiết",
+            "Ghép khối lớn từ hạt nhỏ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focus_information_processing",
+      "name": "TẬP TRUNG & XỬ LÝ THÔNG TIN",
+      "icon": "🎯",
+      "description": "Quét thị giác, lọc nhiễu và định vị đối tượng đích",
+      "skills": [
+        {
+          "id": "target_search",
+          "name": "Tìm mục tiêu",
+          "icon": "🎯",
+          "types": [
+            "Tìm ký hiệu chỉ định",
+            "Đếm số lượng vật thể"
+          ]
+        },
+        {
+          "id": "filter_noise",
+          "name": "Lọc thông tin",
+          "icon": "🌪️",
+          "types": [
+            "Bỏ qua đường nét rối rắm",
+            "Lọc màu gây nhiễu"
+          ]
+        },
+        {
+          "id": "hidden_figures",
+          "name": "Tìm hình ẩn",
+          "icon": "🕵️",
+          "types": [
+            "Vật thể ngụy trang",
+            "Hình lồng trong hình"
+          ]
+        },
+        {
+          "id": "matching",
+          "name": "Matching",
+          "icon": "🔗",
+          "types": [
+            "Nối bóng với hình",
+            "Nối vật cùng loại",
+            "Nối đối xứng"
+          ]
+        },
+        {
+          "id": "visual_scanning",
+          "name": "Visual scanning",
+          "icon": "👁️",
+          "types": [
+            "Quét từ trái sang phải",
+            "Quét mê cung",
+            "Theo dõi đường đi dây"
+          ]
+        }
+      ]
+    }
+  ],
+  "diagnostic_tags": [
+    {
+      "id": "visual_spatial_reasoning",
+      "name": "Visual-Spatial Reasoning",
+      "vi": "Tư duy Không gian Thị giác"
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "vi": "Đối xứng Trục & Tâm"
+    },
+    {
+      "id": "visual_comparison",
+      "name": "Visual Comparison",
+      "vi": "So sánh Trực quan"
+    },
+    {
+      "id": "working_memory",
+      "name": "Working Memory",
+      "vi": "Trí nhớ Làm việc"
+    },
+    {
+      "id": "pattern_recognition",
+      "name": "Pattern Recognition",
+      "vi": "Nhận diện Mẫu & Quy luật"
+    },
+    {
+      "id": "mental_rotation",
+      "name": "Mental Rotation",
+      "vi": "Xoay hình trong Tâm trí"
+    },
+    {
+      "id": "spatial_transformation",
+      "name": "Spatial Transformation",
+      "vi": "Biến đổi Không gian"
+    },
+    {
+      "id": "fine_motor_precision",
+      "name": "Fine Motor / Precision",
+      "vi": "Vận động Tinh & Khớp chính xác"
+    },
+    {
+      "id": "inhibitory_control",
+      "name": "Inhibitory Control",
+      "vi": "Kiểm soát Ức chế & Chống phân tâm"
+    }
+  ],
+  "secondary_skills": [
+    "Tư duy không gian",
+    "Quan sát & So sánh",
+    "Nhận diện chi tiết",
+    "Tư duy đối xứng",
+    "Nhận diện màu sắc",
+    "Nhận diện đường cong",
+    "Phối hợp tay - mắt",
+    "Khả năng tập trung",
+    "Phân tích thị giác",
+    "Trí nhớ làm việc"
+  ],
+  "difficulty_levels": [
+    "Level 1 (Dễ)",
+    "Level 2 (Trung bình)",
+    "Level 3 (Thử thách)"
+  ],
+  "age_ranges": [
+    "4–5 tuổi",
+    "5–6 tuổi",
+    "6–7 tuổi",
+    "5–7 tuổi",
+    "7–9 tuổi"
+  ],
+  "interaction_types": [
+    "Drag & Drop (Kéo - Thả)",
+    "Tap & Snap (Chạm & Hút)",
+    "Rotate & Match (Xoay & Ghép)",
+    "Multiple Choice (Bấm chọn)"
+  ]
+}
